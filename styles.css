@@ -1,0 +1,104 @@
+:root {
+    --primary: #3f2860;
+    --secondary: #FA8B60;
+    --tertiary: #7A9A95;
+    --blur: 0px;
+    --opacity: 1;
+    --top: 0px;
+    --left: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--primary);
+}
+.highlight {
+    color: var(--primary);
+}
+.bg {
+    background-color: var(--secondary);
+    border: 1.5rem solid var(--tertiary);
+    margin: 0 auto;
+    padding: 0 4rem 4rem 4rem;
+    width: 50%;
+}
+.header {
+    align-content: center;
+    color: white;
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: center;
+    text-align: center;
+}
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.controls__slider {
+    line-height: 30px;
+    width: 30%;
+}
+.controls__slider label {
+    position: relative;
+    top: -7px;
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+.controls__slider input {
+    max-width: 50%;
+}
+.idk {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+.idk2 {
+    display: flex;
+    justify-content: center;
+}
+.idk3 {
+    position: relative;
+    background-color: var(--secondary);
+    padding: 50px;
+    position: relative;
+}
+.img-container {
+    align-items: center;
+    filter: blur(var(--blur));
+    justify-content: center;
+    left: var(--left);
+    opacity: var(--opacity);
+    position: relative;    
+    top: var(--top);
+}
+.img-container p {
+    color: black;
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+.img-container img {
+    max-width: 100%;
+    position: relative;
+}
+.meme-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="bg">
+            <header class="header">
+                <h1>Update CSS Variables with <span class="highlight">JS</span></h1>
+            </header>
+            
+            <div class="controls">
+                <div class="controls__slider">
+                    <label for="position">Position: </label>
+                    <input type="range" name="position">
+                </div>
+                <div class="controls__slider">
+                    <label for="opacity">Opacity: </label>
+                    <input type="range" name="opacity" max=1 step=.1 value=1>
+                </div>
+                <div class="controls__slider">
+                    <label for="blur">Blur: </label>
+                    <input type="range" name="blur" max=2 step=.1 value=0>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls__slider">
+                    <label for="baseColor">Primary: </label>
+                    <input type="color" name="primary" value="#3f2860">
+                </div>
+                <div class="controls__slider">
+                    <label for="baseColor">Secondary: </label>
+                    <input type="color" name="secondary" value="#3f2860">
+                </div>
+                <div class="controls__slider">
+                    <label for="baseColor">Tertiary: </label>
+                    <input type="color" name="tertiary" value="#3f2860">
+                </div>
+            </div>
+
+            <form class="meme-text" action="">
+                <input type="text" name="test">
+                <input type="submit">
+            </form>
+        </div>
+        
+        <section class="idk">
+            <div class="idk2">
+                <div class="idk3">
+                    <div class="img-container">
+                        <img src="images/city.jpg" alt="city">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
